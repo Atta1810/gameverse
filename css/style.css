@@ -582,3 +582,197 @@ nav a:hover {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media screen and (max-width: 768px) {
+	header {
+		padding: 15px 20px;
+		flex-wrap: wrap;
+	}
+
+	.logo img {
+		width: 40px;
+	}
+
+	nav {
+		order: 3;
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	nav a {
+		margin: 10px;
+		font-size: 14px;
+	}
+
+	.dicor img {
+		width: 40px;
+	}
+
+	.main {
+		padding: 40px 20px;
+	}
+
+	.main h1 {
+		font-size: 28px;
+	}
+
+	.main .text p {
+		font-size: 16px;
+	}
+
+	.buttons {
+		flex-direction: column;
+	}
+
+	.buttons button {
+		width: 100%;
+	}
+
+	.socials img {
+		width: 40px;
+	}
+
+	.social-icons {
+		display: flex;
+		gap: 10px;
+	}
+
+	.controller img {
+		width: 100%;
+		max-width: 350px;
+	}
+
+	.recommended {
+		padding: 30px 20px;
+	}
+
+	.recommended h2 {
+		font-size: 24px;
+	}
+
+	.games {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.games img {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	/* Games page */
+	.container {
+		padding: 20px;
+	}
+
+	.search-box input {
+		width: 90%;
+		font-size: 16px;
+		padding: 12px 15px;
+	}
+
+	.page h1 {
+		font-size: 32px;
+	}
+
+	.all-games {
+		gap: 15px;
+	}
+
+	.game-card {
+		flex: 0 0 100%;
+	}
+
+	/* Pricing page */
+	.pricing-container {
+		padding: 30px 20px;
+	}
+
+	.pricing-header h1 {
+		font-size: 32px;
+	}
+
+	.pricing-header p {
+		font-size: 18px;
+	}
+
+	.pricing-cards {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pricing-card {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.plan-name {
+		font-size: 28px;
+	}
+
+	.plan-price {
+		font-size: 40px;
+	}
+
+	/* About page */
+	.about-container {
+		padding: 30px 20px;
+	}
+
+	.about-hero h1 {
+		font-size: 32px;
+	}
+
+	.about-subtitle {
+		font-size: 18px;
+	}
+
+	.about-section h2 {
+		font-size: 26px;
+	}
+
+	.about-section p {
+		font-size: 16px;
+	}
+
+	.values-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.value-card h3 {
+		font-size: 20px;
+	}
+
+	.about-features li {
+		font-size: 16px;
+	}
+
+	.about-stats {
+		grid-template-columns: 1fr;
+	}
+
+	.stat-card h3 {
+		font-size: 40px;
+	}
+
+	.about-cta {
+		padding: 30px 20px;
+	}
+
+	.about-cta h2 {
+		font-size: 28px;
+	}
+
+	.about-cta p {
+		font-size: 18px;
+	}
+
+	.cta-buttons {
+		flex-direction: column;
+	}
+
+	.cta-buttons button {
+		width: 100%;
+	}
+}
