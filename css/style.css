@@ -33,3 +33,67 @@ nav a:hover {
 .dicor img{
 	width: 50px;
 }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.main .text {
+  width: 50%;
+}
+
+.main h1 {
+  font-size: 100 px;
+  margin-bottom: 20px;
+}
+
+.main .text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: rgb(199, 197, 197);
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: medium;
+
+}
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+.first,
+.second {
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+}
+
+.first:hover,
+.second:hover {
+  background: #ff4d00;
+}
+
+.second:hover {
+  border-color: #ff4d00;
+}
+
+.socials img {
+  width: 50px;
+}
+
+.controller img {
+  width: 600px;
+  filter: drop-shadow(0 0 20px #ff4d00);
+}
