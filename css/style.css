@@ -776,3 +776,171 @@ nav a:hover {
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	header {
+		padding: 15px;
+	}
+
+	.logo img {
+		width: 35px;
+	}
+
+	nav a {
+		margin: 8px;
+		font-size: 13px;
+	}
+
+	.dicor img {
+		width: 35px;
+	}
+
+	.main {
+		padding: 30px 15px;
+	}
+
+	.main h1 {
+		font-size: 24px;
+	}
+
+	.main .text p {
+		font-size: 14px;
+	}
+
+	.buttons button {
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+
+	.socials img {
+		width: 35px;
+	}
+
+	.controller img {
+		width: 100%;
+		max-width: 280px;
+	}
+
+	.recommended {
+		padding: 25px 15px;
+	}
+
+	.recommended h2 {
+		font-size: 20px;
+	}
+
+	/* Games page */
+	.container {
+		padding: 15px;
+	}
+
+	.back-arrow {
+		font-size: 20px;
+	}
+
+	.search-box input {
+		font-size: 14px;
+		padding: 10px 12px;
+	}
+
+	.page h1 {
+		font-size: 28px;
+	}
+
+	/* Pricing page */
+	.pricing-container {
+		padding: 25px 15px;
+	}
+
+	.pricing-header h1 {
+		font-size: 28px;
+	}
+
+	.pricing-header p {
+		font-size: 16px;
+	}
+
+	.pricing-card {
+		padding: 30px 20px;
+	}
+
+	.plan-name {
+		font-size: 24px;
+	}
+
+	.plan-price {
+		font-size: 36px;
+	}
+
+	.plan-features li {
+		font-size: 14px;
+		padding: 10px 0;
+	}
+
+	/* About page */
+	.about-container {
+		padding: 25px 15px;
+	}
+
+	.about-hero h1 {
+		font-size: 28px;
+	}
+
+	.about-subtitle {
+		font-size: 16px;
+	}
+
+	.about-section h2 {
+		font-size: 24px;
+	}
+
+	.about-section p {
+		font-size: 14px;
+	}
+
+	.value-card {
+		padding: 20px;
+	}
+
+	.value-card h3 {
+		font-size: 18px;
+	}
+
+	.value-card p {
+		font-size: 14px;
+	}
+
+	.about-features li {
+		font-size: 14px;
+		padding: 12px 0;
+	}
+
+	.stat-card {
+		padding: 25px;
+	}
+
+	.stat-card h3 {
+		font-size: 36px;
+	}
+
+	.stat-card p {
+		font-size: 16px;
+	}
+
+	.about-cta {
+		padding: 25px 15px;
+	}
+
+	.about-cta h2 {
+		font-size: 24px;
+	}
+
+	.about-cta p {
+		font-size: 16px;
+	}
+
+	.cta-buttons button {
+		padding: 12px 20px;
+		font-size: 16px;
+	}
+}
