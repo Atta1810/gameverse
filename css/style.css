@@ -123,3 +123,47 @@ nav a:hover {
 .games img:hover {
   transform: scale(1.05);
 }
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.search-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.search-box input {
+	width: 100%;
+	max-width: 600px;
+	padding: 15px 20px;
+	border-radius: 8px;
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	font-size: 18px;
+	outline: none;
+}
+
+.page h1 {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.all-games {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+}
+
+.game-card {
+	flex: 0 0 calc(50% - 12.5px);
+}
+
+.all-games img:hover{
+
+	transform: scale(1.05);
+}
